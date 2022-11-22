@@ -1,2 +1,3 @@
 Containerise a simple java app 
+docker build -t simple-webapp .
 docker run -p 8080:8080 simple-webapp
